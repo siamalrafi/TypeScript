@@ -1,6 +1,6 @@
 "use strict";
-let a;
-a = ['ldjf '];
-a.push(555);
-a.push(true);
-console.log(a);
+const myFun = (a, b, c) => {
+    console.log(a + b);
+    return c;
+};
+console.log(myFun("3", true, 444));

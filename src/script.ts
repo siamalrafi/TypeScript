@@ -1,7 +1,6 @@
-let a: (string | number | boolean)[];
+const myFun = (a: string, b: boolean, c?: any): Function => {
+    console.log(a + b);
+    return c
+}
 
-a = ['ldjf ']
-a.push(555)
-a.push(true)
-
-console.log(a);
+console.log(myFun("3", true, 444));
