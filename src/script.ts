@@ -1,11 +1,3 @@
-let friendname;
-
-friendname = 'Rana';
-
-
-
-
-
-
-
-console.log(friendname);
+let a;
+a = 4;
+console.log(a);
