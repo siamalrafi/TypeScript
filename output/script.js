@@ -1,4 +1,6 @@
 "use strict";
-let friendname;
-friendname = 'Rana';
-console.log(friendname);
+let a;
+a = ['ldjf '];
+a.push(555);
+a.push(true);
+console.log(a);
