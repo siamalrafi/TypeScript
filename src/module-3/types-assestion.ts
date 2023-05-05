@@ -35,7 +35,4 @@ let person2: MAN<boolean, string> = {
     gender: "male"
 }
 
-
-
-
-console.log(person.name);
+console.log(person2.age);
