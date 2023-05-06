@@ -20,6 +20,7 @@ const OBJECT: MAN<{ first: number, second: number }, { first: string, second: bo
 }
 
 console.log("object");
+console.log("object");
 
 let person: MAN<number, string> = {
     name: "John",
