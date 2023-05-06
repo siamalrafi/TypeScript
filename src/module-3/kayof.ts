@@ -16,7 +16,4 @@ const user: User = {
 };
 
 
-const name = getProperty(user, "name"); // Type: string
 const email = getProperty(user, "email"); // Type: string
-const age = getProperty(user, "age"); // Type: number
-const invalid = getProperty(user, "invalid"); // Compile-time error: Argument of type '"invalid"' is not assignable to parameter of type '"name" | "email" | "age"'
