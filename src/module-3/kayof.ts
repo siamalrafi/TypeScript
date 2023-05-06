@@ -5,7 +5,6 @@ interface User {
 }
 
 function getProperty<T, K extends keyof T>(obj: T, key: K) {
-    console.log("object");
     return obj[key];
 
 }
