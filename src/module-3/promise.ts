@@ -15,6 +15,9 @@ const getPromise = async (): Promise<string> => {
     const data = await makePromise();
     return data
 };
+
+
+
 /* 
 
 const makePromiseBo = (): Promise<boolean> => {
