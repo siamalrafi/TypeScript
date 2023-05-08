@@ -1,4 +1,4 @@
-interface MAN<T, M> {
+/* interface MAN<T, M> {
     name: string;
     email: string;
     age: T;
@@ -37,4 +37,4 @@ let person2: MAN<boolean, string> = {
     gender: "male"
 }
 
-console.log(person2.age);
+console.log(person2.age); */

@@ -23,7 +23,7 @@ console.log(Counter.increment()); */
 
 
 
-
+/* 
 
 // static 
 
@@ -44,4 +44,4 @@ const counter2 = new Tech();
 
 
 console.log(Tech.increment());
-console.log(Tech.increment());
+console.log(Tech.increment()); */

@@ -14,7 +14,7 @@ class PARENT {
 }
 
 
-class Student extends PARENT {
+/* class Student extends PARENT {
     status: string;
 
     constructor(name: string, age: number, gender: string, sexy: string) {
@@ -36,7 +36,7 @@ student.age = 20000;
 student.status = "active"
 student.getInfo();
 student.tech("be honest");
-
+ */
 /* class Teacher extends PARENT {
     subject: string;
     constructor(name: string, age: number, gender: string, subject: string) {
