@@ -15,7 +15,7 @@ console.log(addFun1("4", "4")); */
 
 
 
-/* // in Guards 
+/* // in Guards
 
 type normalType = {
     name: string,
@@ -44,7 +44,7 @@ console.log(getUser(adminUser));
 
 
 // instace of guard
-/* 
+/*
 class Animal {
     name: string;
     age: number;
@@ -98,8 +98,9 @@ getAnimal(animal1)
 getAnimal(animal2)
 
  */
+//  make it owner ---
 
-
+/* 
 class Animal {
     name: string;
     age: number;
@@ -132,8 +133,17 @@ class Cat extends Animal {
     }
 }
 
+function isDog(animall: Animal): animall is Dog {
+    return animall instanceof Dog;
+}
+
+
+function isCat(animall: Animal): animall is Cat {
+    return animall instanceof Cat;
+}
+
 function getAnimal(anm: Animal) {
-    if (anm instanceof Dog) {
+    if (isDog(anm)) {
         return anm.makeBrak();
     }
     else if (anm instanceof Cat) {
@@ -147,4 +157,5 @@ function getAnimal(anm: Animal) {
 const animal1 = new Animal("Dog", 4)
 const animal2 = new Animal("Cat", 4)
 
-
+console.log(animal1);
+console.log(animal2); */
