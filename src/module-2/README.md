@@ -21,9 +21,10 @@ let myTuple: [string, number, boolean] = ["Male", 45, true]
 ```
 
 
-* Object, Literal Types and Optional types ---
+**-** Object, Literal Types and Optional types ---
 
-Object=> Object is a normal type of TypeScript object. that can be used to declare multiple value for uses. Literal types are very interesting 
+
+**Object:**=> Object is a normal type of TypeScript object. that can be used to declare multiple value for uses. Literal types are very interesting 
 
 Literal types=> It's allowed to declare a type with some selected value. then this can't be changed.
 
