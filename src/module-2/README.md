@@ -24,18 +24,20 @@ let myTuple: [string, number, boolean] = ["Male", 45, true]
 * Object, Literal Types and Optional types ---
 Object is a normal type of TypeScript object. that can be used to declare multiple value for uses. Literal types are very interesting 
 
+Literal types: It's allowed to declare a type with some selected value. then this can't be changed.
 
+Optional types: It's allowed to use a types that will be optional. You can be use this type of not it's declare with question mark (?).
 
 ```bash
 // Object Types
 type Person = {
   name: string;
   age: number;
-  address: {
+  address?: { 
     street: string;
     city: string;
     state: string;
-  };
+  }; // optional types
 };
 
 let person: Person = {
@@ -45,9 +47,13 @@ let person: Person = {
     street: '123 Main St',
     city: 'Anytown',
     state: 'CA'
-  }
+  } // nothing will occurred if you not use it.
 };
 
+// Literal types
+type YesNo = 'yes' | 'no';
+let answer: YesNo = 'yes'; // this is valid
+let answer2: YesNo = 'maybe'; // this is invalid
 
 
 ```
