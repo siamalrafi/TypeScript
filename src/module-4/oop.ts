@@ -23,7 +23,6 @@ animal.getAnimal();
 // this is the properties types for typescript class --
 class PERSON {
     constructor(public name: string, public age: number, public weight: number, public gender: string) {
-
     }
     getInfo() {
         console.log(`Hello! ${this.name} ${this.age} ${this.weight}`);
