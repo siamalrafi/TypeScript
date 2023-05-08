@@ -1,9 +1,9 @@
 This is the README file of this folder that is learn from here. I try to note this all important things about TypeScript.
 
 # Main Topics:
-* Array and Tuples in typescript
-* 
-* 
+1. Array and Tuples in typescript
+2. Object, Literal Types and Optional types
+3. 
 
 
 * Array and Tuples in typescript: Array is a normal array type like JavaScript array. It's allow to declare multiple values with there types. It can be string, number and boolean types. On the other hand, Tuple almost similar to Array but there are one different. In tuples, we should declare with the index where will be string, number and boolean.
@@ -18,4 +18,36 @@ myArray.map((a)=>console.log(a))
 // Tuple in TypeScript
 
 let myTuple: [string, number, boolean] = ["Male", 45, true]
+```
+
+
+* Object, Literal Types and Optional types ---
+Object is a normal type of TypeScript object. that can be used to declare multiple value for uses. Literal types are very interesting 
+
+
+
+```bash
+// Object Types
+type Person = {
+  name: string;
+  age: number;
+  address: {
+    street: string;
+    city: string;
+    state: string;
+  };
+};
+
+let person: Person = {
+  name: 'John',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA'
+  }
+};
+
+
+
 ```
