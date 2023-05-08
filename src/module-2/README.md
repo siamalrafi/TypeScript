@@ -6,7 +6,7 @@ This is the README file of this folder that is learn from here. I try to note th
 * 
 
 
-## Array and Tuples in typescript: Array is a normal array type like JavaScript array. It's allow to declare multiple values with there types. It can be string, number and boolean types. On the other hand, Tuple almost similar to Array but there are one different. In tuples, we should declare with the index where will be string, number and boolean.
+### Array and Tuples in typescript: Array is a normal array type like JavaScript array. It's allow to declare multiple values with there types. It can be string, number and boolean types. On the other hand, Tuple almost similar to Array but there are one different. In tuples, we should declare with the index where will be string, number and boolean.
 ```bash
 // Array and Tuples in typescript
 
