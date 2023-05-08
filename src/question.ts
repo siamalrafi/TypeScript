@@ -1,16 +1,16 @@
 // ternary operator
 
-const age: number = 15;
+// const age: number = 15;
 
-if (age >= 18) {
-    console.log("YES");
-} else {
-    console.log("NO");
-}
+// if (age >= 18) {
+//     console.log("YES");
+// } else {
+//     console.log("NO");
+// }
 
-const isAdult = age >= 18 ? "yes" : "no";
+// const isAdult = age >= 18 ? "yes" : "no";
 
-console.log(isAdult);
+// console.log(isAdult);
 
 
 

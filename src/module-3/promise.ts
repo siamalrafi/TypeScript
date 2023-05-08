@@ -1,20 +1,20 @@
 // make Promise 
-const makePromise = (): Promise<string> => {
-    return new Promise((resolve, reject) => {
-        const data: string = "data is undefined."
-        if (data) {
-            resolve(data);
-        } else {
-            reject("Error");
+// const makePromise = (): Promise<string> => {
+//     return new Promise((resolve, reject) => {
+//         const data: string = "data is undefined."
+//         if (data) {
+//             resolve(data);
+//         } else {
+//             reject("Error");
 
-        }
-    })
-};
+//         }
+//     })
+// };
 
-const getPromise = async (): Promise<string> => {
-    const data = await makePromise();
-    return data
-};
+// const getPromise = async (): Promise<string> => {
+//     const data = await makePromise();
+//     return data
+// };
 
 
 

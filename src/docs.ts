@@ -1,7 +1,7 @@
-function throwError(message: string): never {
-    throw new Error(message);
-}
+// function throwError(message: string): never {
+//     throw new Error(message);
+// }
 
-function infiniteLoop(): never {
-    while (true) { }
-}
+// function infiniteLoop(): never {
+//     while (true) { }
+// }

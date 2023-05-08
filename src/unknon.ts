@@ -1,11 +1,11 @@
-const searchName = (value: string | null | "name") => {
-    if (value === null) {
-        console.log("there is no search");
-    }
-    else {
-        console.log("Searching: " + value);
-    }
-};
+// const searchName = (value: string | null | "name") => {
+//     if (value === null) {
+//         console.log("there is no search");
+//     }
+//     else {
+//         console.log("Searching: " + value);
+//     }
+// };
 
 // searchName(null)
 

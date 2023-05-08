@@ -1,4 +1,4 @@
-type noobDev = {
+/* type noobDev = {
     name: string
 }
 
@@ -29,4 +29,4 @@ const fun1 = (name: string | 4): number | string => {
     return name
 }
 
-console.log(fun1(4))
+console.log(fun1(4)) */
