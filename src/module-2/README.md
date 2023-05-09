@@ -56,7 +56,14 @@ let person: Person = {
 // Literal types
 type YesNo = 'yes' | 'no';
 let answer: YesNo = 'yes'; // this is valid
-let answer2: YesNo = 'maybe'; // this is invalid
-
-
+let answer2: YesNo = 'maybe'; // this is invalid 
 ```
+
+
+
+
+==>Functions in Typescript
+
+
+
+
