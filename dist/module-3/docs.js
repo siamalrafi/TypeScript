@@ -1,3 +1,4 @@
+"use strict";
 /* // types assertions --
 let x: any = "Hello, world!";
 let len1 = (<string>x).length; // using angle-bracket syntax
@@ -5,8 +6,6 @@ let len2 = (x as string).length; // using "as" keyword
 
 console.log(len1);
 console.log(len2); */
-
-
 /* // Interface, Type vs Interface
 
 // interface only used for Object types -
@@ -24,8 +23,6 @@ type OBJ2 = {
     z?: number;
 }
  */
-
-
 /*  Introduction of Generic in Type
 type GENER<T> = Array<T>;
 
@@ -47,14 +44,9 @@ let result2 = GENER<object>({name:"Raja",age:4}); // result2 is of type number
 
 // console.log(result1);
 console.log(result2); */
-
-
-
-function map<T, U>(array: T[], func: (item: T) => U): U[] {
+function map(array, func) {
     return array.map(func);
 }
-
 let result1 = map([1, 2, 3], (item) => item.toString()); // result1 is of type string[]
 let result2 = map(["hello", "world"], (item) => item.length); // result2 is of type number[]
-
 console.log(result1);
